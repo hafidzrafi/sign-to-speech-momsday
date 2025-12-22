@@ -1,0 +1,35 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environments (Conda & Virtualenv) ---
+# Mengabaikan folder environment agar tidak ter-upload (karena ukurannya bergiga-giga)
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# --- IDE & Editor Settings ---
+# Settingan personal VS Code atau PyCharm tidak perlu dibagi ke orang lain
+.vscode/
+.idea/
+
+# --- OS System Files ---
+# File sampah dari Mac/Windows
+.DS_Store
+Thumbs.db
+
+# --- Logs & Databases ---
+*.log
+*.sqlite
+
+# --- Optional: Large temporary files ---
+# (Kita TIDAK meng-ignore .h5 atau .wav karena kamu butuh itu di repo ini)
+# Tapi jika ada file testing/rekaman gagal, bisa taruh di folder temp/
+temp/
+output/
