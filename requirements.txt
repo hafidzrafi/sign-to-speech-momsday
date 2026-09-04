@@ -1,0 +1,4 @@
+opencv-python
+cvzone==1.6.1
+pygame>=2.6.0
+tensorflow
